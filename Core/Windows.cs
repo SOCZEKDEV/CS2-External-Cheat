@@ -8,7 +8,7 @@ public class Windows
 {
     public static void DrawWatermark(Overlay overlay, Graphics gfx, System.Drawing.Point cursorPos)
 	{		
-		var infoText = $"{Globals.ProjectName} | FPS: {gfx.FPS} | Cursor: {cursorPos.X}, {cursorPos.Y}";
+		var infoText = $"FPS: {gfx.FPS} | Cursor: {cursorPos.X}, {cursorPos.Y}";
 		gfx.DrawTextWithBackground(overlay.fonts["consolas"], overlay.colors["green"], overlay.colors["black"], 10, 10, infoText);
 	}
 
