@@ -7,7 +7,7 @@ namespace CS2.Core;
 
 public class Windows
 {
-    private static string fullText = "Juice cheats";
+    private static string fullText = "Juicez cheats";
     private static string animatedText = "";
     private static int animationDuration = 30000; // 30 seconds
     private static int interval = animationDuration / fullText.Length;
